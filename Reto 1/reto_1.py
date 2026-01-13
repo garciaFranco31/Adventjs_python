@@ -3,7 +3,7 @@
 Ayuda a Santa escribiendo una función que reciba una lista de nombres de regalos y devuelva una nueva lista que solo contenga los regalos sin defectos."""
 
 
-regalos = ["#"]
+regalos = ["medias","#", "auto"]
 
 def regalo_ok(regalos):
     regalos_ok = []
