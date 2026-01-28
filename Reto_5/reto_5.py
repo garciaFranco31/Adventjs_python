@@ -22,7 +22,9 @@ matchGloves(gloves)
 from typing import List, Dict
 
 def match_gloves(gloves: List[Dict[str, str]]) -> List[str]:
+    pares = []
     for elem in gloves:
+        actual_color = elem["color"]
         print(elem)
 
 gloves = [
